@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Forum</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Forum1</h1>
+
+    <form method="POST">
+        <textarea name="complaint" placeholder="hier.."></textarea><br>
+        <button type="submit">Send</button>
+    </form>
+
+    <ul>
+        {% for m in messages %}
+            <li>
+                {{ m[1] }} <!-- текст сообщения -->
+                <form method="POST" action="/delete/{{ m[0] }}" style="display:inline;">
+                    <button type="submit">x</button>
+                </form>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
