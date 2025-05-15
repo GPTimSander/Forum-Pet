@@ -6,8 +6,8 @@ I might expand it in the future and explore more of the frontend (maybe with Vue
 ## 🖼️ Screenshots
 
 
-!(screenshots/image_2025-05-15_21-54-49)
+![](screenshots/image_2025-05-15_21-54-49)
 
-!(screenshots/image_2025-05-15_21-56-16)
+![](screenshots/image_2025-05-15_21-56-16)
 
-!(screenshots/image_2025-05-15_21-56-50)
+![](screenshots/image_2025-05-15_21-56-50)
